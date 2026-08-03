@@ -90,15 +90,14 @@ const GOLDEN_BRIDGE_DATA = {
       name: "Companion Visit",
       subtitle: "Heartfelt Bedside Companionship",
       badge: "Essential Care",
-      basePriceZAR: 450,
-      basePriceGBP: 20,
-      basePriceUSD: 25,
-      basePriceAUD: 38,
-      duration: "45 – 60 Minutes",
+      basePriceZAR: 650,
+      basePriceGBP: 29,
+      basePriceUSD: 36,
+      basePriceAUD: 55,
+      duration: "Up to 30 mins per visit",
       features: [
         "Warm, 1-on-1 bedside conversation & presence",
-        "Assistance with personal items & water",
-        "Reading letters, news, or devotional texts",
+        "Live WhatsApp / Zoom video call with family",
         "Comprehensive post-visit report emailed to family",
         "High-resolution patient photo (with permission)"
       ],
@@ -110,42 +109,20 @@ const GOLDEN_BRIDGE_DATA = {
       name: "Comfort Visit",
       subtitle: "Companionship + Fresh Treats & Reading",
       badge: "Most Popular",
-      basePriceZAR: 650,
-      basePriceGBP: 29,
-      basePriceUSD: 36,
-      basePriceAUD: 55,
-      duration: "60 Minutes",
-      features: [
-        "Everything in Companion Visit",
-        "Choice of tea, coffee, or fresh fruit juice",
-        "Dietary-approved snack or bakery treat",
-        "Fresh magazine, newspaper, or puzzle book",
-        "Bedside comfort arrangement & tidy-up",
-        "Detailed WhatsApp photo & text summary"
-      ],
-      icon: "fa-mug-hot",
-      recommended: true
-    },
-    {
-      id: "connection",
-      name: "Connection Visit",
-      subtitle: "Comfort Visit + Live Overseas Video Call",
-      badge: "Best for Overseas",
       basePriceZAR: 850,
       basePriceGBP: 38,
       basePriceUSD: 47,
       basePriceAUD: 72,
-      duration: "60 – 75 Minutes",
+      duration: "Up to 30 mins per visit",
       features: [
-        "Everything in Comfort Visit",
-        "Dedicated high-speed 4G tablet setup at bedside",
-        "Scheduled live WhatsApp / Zoom video call with family",
-        "Full technical support so patient relaxes",
-        "Assistance holding device for natural interaction",
-        "Immediate post-call family check-in report"
+        "Everything in Companion Visit",
+        "Fresh fruit juice or cold beverage",
+        "Dietary-approved snack or bakery treat",
+        "Fresh magazine, newspaper, or puzzle book",
+        "Detailed WhatsApp photo & text summary"
       ],
-      icon: "fa-video",
-      recommended: false
+      icon: "fa-sun",
+      recommended: true
     },
     {
       id: "weekly-plan",
@@ -156,12 +133,11 @@ const GOLDEN_BRIDGE_DATA = {
       basePriceGBP: 98,
       basePriceUSD: 122,
       basePriceAUD: 185,
-      duration: "3 Visits per Week",
+      duration: "per week (3 visits)",
       features: [
-        "3 visits per week (combination of Comfort & Connection)",
+        "3 visits per week (combination of Companion & Comfort)",
         "Dedicated personal companion assigned to your loved one",
         "Priority scheduling & emergency visit availability",
-        "Ongoing nurse & ward check-ins",
         "Weekly summary log & photo progress gallery"
       ],
       icon: "fa-calendar-check",
@@ -193,11 +169,11 @@ const GOLDEN_BRIDGE_DATA = {
       date: "Today, 15:30 CAT",
       visitor: "Sarah (Golden Bridge Companion)",
       mood: "Upbeat & Smiling 😊",
-      summary: "I visited your mom today around 3:30 PM. She was sitting up in bed looking bright and rested. We had Rooibos tea together while she enjoyed the crossword puzzle book I brought. She spoke fondly about your garden in Surrey and was thrilled with our video call! Nurse Thandi confirmed her blood pressure is stable and she is recovering well.",
+      summary: "I visited your mom today around 3:30 PM. She was sitting up in bed looking bright and rested. We had a lovely chat while she enjoyed the fresh magazine I brought. She spoke fondly about your garden in Surrey and was thrilled with our video call! Nurse Thandi confirmed her blood pressure is stable and she is recovering well.",
       highlights: [
         "Completed 15-minute live WhatsApp video call with overseas family in London.",
-        "Delivered requested chamomile tea & biscuit snack.",
-        "Completed 3 crossword puzzles together.",
+        "Delivered requested cold beverage & biscuit snack.",
+        "Completed 3 magazine puzzles together.",
         "Patient expressed extreme gratitude for the surprise visit!"
       ]
     },
@@ -207,7 +183,7 @@ const GOLDEN_BRIDGE_DATA = {
       hospital: "Busamed Gateway Hospital, Room 108",
       date: "Yesterday, 14:45 CAT",
       visitor: "David (Golden Bridge Companion)",
-      mood: "Relaxed & Grateful ☕",
+      mood: "Relaxed & Grateful 😊",
       summary: "Robert was delighted to have company this afternoon. We read through the sports section of the Natal Mercury together and chatted about rugby. He enjoyed his fresh orange juice and asked me to remind you that he loves the photos you sent over WhatsApp. The ward nurse noted he is eating well today.",
       highlights: [
         "Read daily newspaper sports section together.",
@@ -229,11 +205,11 @@ const GOLDEN_BRIDGE_DATA = {
     },
     {
       q: "How do you coordinate video calls with overseas time zones?",
-      a: "Prior to the visit, we coordinate a precise time window that fits both hospital visiting hours in Durban and your local time zone. Our companion brings a high-speed cellular tablet to ensure seamless connection."
+      a: "Prior to the visit, we coordinate a precise time window that fits both hospital visiting hours in Durban and your local time zone to ensure a seamless connection."
     },
     {
       q: "What if the hospital has dietary restrictions for my relative?",
-      a: "We always verify dietary permissions with the ward sister or nurse on duty before handing over any tea, coffee, or snacks. If treats are restricted, we substitute them with books, flowers, or extra reading time."
+      a: "We always verify dietary permissions with the ward sister or nurse on duty before handing over any beverages or snacks. If treats are restricted, we substitute them with books, flowers, or extra reading time."
     },
     {
       q: "How quickly can a visit be arranged?",
