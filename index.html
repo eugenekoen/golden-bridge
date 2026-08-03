@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Bridge Services | Compassionate Hospital Visits in Durban</title>
+  <meta name="description" content="Golden Bridge Services provides compassionate hospital visits, bedside companionship, tea & comfort packages, live video calls, and regular updates for families living overseas with loved ones in Durban hospitals.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- Top Timezone Sync & Direct Contact Bar -->
+  <div class="top-utility-bar">
+    <div class="container utility-flex">
+      <div class="timezone-clocks">
+        <div class="clock-badge">
+          <i class="fas fa-clock"></i> <span>Durban (CAT):</span> <strong id="durban-clock">--:--:-- CAT</strong>
+        </div>
+        <div class="clock-badge">
+          <i class="fas fa-globe"></i> <span>Your Local Time:</span> <strong id="user-clock">--:--:--</strong>
+        </div>
+        <div class="tz-selector-inline">
+          <label for="user-tz-select" class="sr-only">Select your location</label>
+          <select id="user-tz-select" aria-label="Select your location timezone">
+            <!-- Dynamic dropdown options -->
+          </select>
+        </div>
+      </div>
+      <div>
+        <a href="https://wa.me/27820000000?text=Hello%20Golden%20Bridge%20Services,%20I%20would%20like%20to%20enquire%20about%20a%20hospital%20visit." target="_blank" class="whatsapp-top-link">
+          <i class="fab fa-whatsapp"></i> Chat with Us on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <img src="assets/logo.png" alt="Golden Bridge Services Emblem Logo" />
+        <div>
+          <span class="brand-name">Golden Bridge</span>
+          <span class="brand-tag">Hospital Companion Services</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#origin-story" class="nav-link">Our Story</a>
+        <a href="#services" class="nav-link">Care Packages</a>
+        <a href="#calculator-section" class="nav-link">Fee Estimator</a>
+        <a href="#sample-update" class="nav-link">Sample Report</a>
+        <a href="#hospitals" class="nav-link">Durban Hospitals</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#calculator-section" class="btn btn-gold btn-sm"><i class="fas fa-heart"></i> Book a Visit</a>
+      </nav>
+
+      <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fas fa-hand-holding-heart"></i> Durban's Trusted Hospital Companion Service
+          </div>
+          <h1 class="hero-title">
+            Bridging the Distance for Loved Ones in <span class="highlight">Durban Hospitals</span>
+          </h1>
+          <p class="hero-description">
+            When distance, work, or travel keeps you overseas, we step in to ensure your family member never feels alone. Providing warm bedside visits, refreshments, scheduled video calls, and instant peace of mind.
+          </p>
+          <div class="hero-actions">
+            <a href="#calculator-section" class="btn btn-gold"><i class="fas fa-calendar-check"></i> Book a Hospital Visit</a>
+            <a href="#origin-story" class="btn btn-outline-navy"><i class="fas fa-book-open"></i> Read Our Origin Story</a>
+          </div>
+          <div class="hero-trust-badges">
+            <div class="trust-item"><i class="fas fa-shield-halved"></i> 100% Verified Companions</div>
+            <div class="trust-item"><i class="fas fa-hospital"></i> All Durban Hospitals</div>
+            <div class="trust-item"><i class="fas fa-mobile-screen"></i> Live Video & Photo Updates</div>
+          </div>
+        </div>
+        <div class="hero-visual-card">
+          <img src="assets/companion_hero.png" alt="Compassionate Golden Bridge Companion visiting patient in Durban hospital ward" />
+          <div class="hero-overlay-tag">
+            <h4><i class="fas fa-heart"></i> Genuine Bedside Presence</h4>
+            <p>"We cannot replace family, but we are a caring bridge until you can be together again."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Origin Story Section -->
+    <section class="section section-alt" id="origin-story">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-image-box">
+            <img src="assets/story_image.jpeg" alt="Founder visiting hospital bedside" />
+            <div class="story-badge-floating">
+              <i class="fas fa-seedling"></i> Born from Compassion
+            </div>
+          </div>
+          <div class="story-content">
+            <span class="section-subtitle">Our Purpose & Mission</span>
+            <h2>"No One Should Heal Alone"</h2>
+            <p class="story-paragraph">
+              Golden Bridge Services was born from a simple moment I have never forgotten. Last year, while visiting my mother in a Durban hospital during her pacemaker replacement, I walked past a gentleman sitting quietly in his ward, looking towards the door as though waiting for someone to arrive.
+            </p>
+            <p class="story-paragraph">
+              Later, I asked one of the nurses if he had received visitors. She gently explained that his family lived overseas. My heart sank. I realized how many mothers, fathers, and grandparents sit in hospital beds while their children live thousands of kilometers away in the UK, Australia, Canada, or the USA.
+            </p>
+            <div class="story-quote-card">
+              "Their families love them deeply, but distance and circumstances make it impossible to be at their bedside. Golden Bridge was created to be that comforting, reassuring bridge."
+              <footer>— Golden Bridge Founder</footer>
+            </div>
+            <p class="story-paragraph">
+              Every visit is more than a service: it is a reassuring presence, a friendly conversation, a warm cup of tea, a puzzle book, a live video call home, and the comfort of knowing someone genuinely cares.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services & Care Packages -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Thoughtfully Curated Care</span>
+          <h2 class="section-title">Our Hospital Visit Packages</h2>
+          <p class="section-description">
+            Choose the level of companionship that best suits your family's needs. Each visit is carried out with dignity, warmth, and complete transparency.
+          </p>
+        </div>
+
+        <div class="packages-grid" id="package-cards-grid">
+          <!-- Dynamic Package Cards generated via booking.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Fee Estimator Widget -->
+    <section class="section section-alt" id="calculator-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Transparent Pricing</span>
+          <h2 class="section-title">Interactive Visit & Fee Estimator</h2>
+          <p class="section-description">
+            Customize your visit details, select optional comforts, and receive an instant fee calculation in your preferred currency.
+          </p>
+        </div>
+
+        <div class="calculator-box">
+          <div class="calculator-grid">
+            <div class="calc-options-side">
+              <h3><i class="fas fa-sliders"></i> 1. Select Visit Details</h3>
+              <div class="form-group">
+                <label for="calc-hospital"><i class="fas fa-hospital"></i> Target Hospital in Durban:</label>
+                <select id="calc-hospital" class="form-control">
+                  <!-- Dynamic Options -->
+                </select>
+              </div>
+
+              <h3><i class="fas fa-gift"></i> 2. Optional Comfort Add-Ons</h3>
+              <div class="addons-grid" id="add-ons-container">
+                <!-- Dynamic Checkboxes -->
+              </div>
+            </div>
+
+            <div class="calc-summary-panel">
+              <div>
+                <h3><i class="fas fa-receipt"></i> Estimated Visit Summary</h3>
+                <div class="summary-row">
+                  <span>Selected Package:</span>
+                  <strong id="summary-package-name">Comfort Visit</strong>
+                </div>
+                <div class="summary-row">
+                  <span>Base Rate:</span>
+                  <strong id="summary-package-price">R 650</strong>
+                </div>
+                <div style="margin-top:16px;">
+                  <span style="font-size:0.85rem; color:rgba(255,255,255,0.7);">Selected Add-Ons:</span>
+                  <ul class="summary-addons-list" id="summary-addons-list">
+                    <li class="no-addons">No optional add-ons selected</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div>
+                <div class="summary-row total-row">
+                  <span>Estimated Total:</span>
+                  <strong id="summary-total-price">R 650</strong>
+                </div>
+                <button class="btn btn-gold" id="open-booking-modal-btn" style="width:100%; margin-top:20px;">
+                  <i class="fas fa-paper-plane"></i> Request This Visit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Connection Feature Highlight -->
+    <section class="section section-navy">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-content">
+            <span class="section-subtitle">Seamless Global Connection</span>
+            <h2>Bedside Video Calls Across Timezones</h2>
+            <p class="story-paragraph" style="color: rgba(255,255,255,0.85);">
+              Seeing your parent or relative smile on screen brings unmatched peace of mind. During our Connection Visits, our companion brings a dedicated high-speed cellular tablet to the ward.
+            </p>
+            <ul style="margin: 20px 0; padding-left: 0;">
+              <li style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+                <i class="fas fa-check-circle" style="color:var(--gold-accent);"></i> We pre-arrange exact times matching hospital visiting hours and your overseas timezone.
+              </li>
+              <li style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+                <i class="fas fa-check-circle" style="color:var(--gold-accent);"></i> Our companion holds the tablet at a comfortable angle so your loved one can relax.
+              </li>
+              <li style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+                <i class="fas fa-check-circle" style="color:var(--gold-accent);"></i> No technical fuss for elderly patients—just pure, uninterrupted connection.
+              </li>
+            </ul>
+            <a href="#calculator-section" class="btn btn-gold" style="margin-top:12px;"><i class="fas fa-video"></i> Book a Connection Visit</a>
+          </div>
+          <div class="story-image-box">
+            <img src="assets/video_call.png" alt="Elderly patient enjoying video call with family on tablet in Durban hospital" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Post-Visit Family Update Preview -->
+    <section class="section sample-update-section" id="sample-update">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Total Transparency</span>
+          <h2 class="section-title">What You Receive After Every Visit</h2>
+          <p class="section-description">
+            Living abroad means you need clear, honest updates. Here is a live preview of the detailed visit reports delivered straight to your WhatsApp or Email.
+          </p>
+        </div>
+
+        <div class="report-tabs" id="report-tabs-container">
+          <!-- Dynamic Tabs -->
+        </div>
+
+        <div id="report-display-box">
+          <!-- Dynamic Report Viewer -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Durban Hospital Directory & Coverage -->
+    <section class="section section-alt" id="hospitals">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Greater Durban Area</span>
+          <h2 class="section-title">Hospitals We Serve</h2>
+          <p class="section-description">
+            We provide companion visits across all major private and public medical facilities in Durban and surrounding areas.
+          </p>
+        </div>
+
+        <div class="hospital-search-bar">
+          <i class="fas fa-search"></i>
+          <input type="text" id="hospital-search" placeholder="Search hospital name or region (e.g. Gateway, Glenwood, Westville)..." aria-label="Search hospitals">
+        </div>
+
+        <div class="hospitals-grid" id="hospitals-grid">
+          <!-- Dynamic Hospital Cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Guiding Principles & Code of Care -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Our Promise To You</span>
+          <h2 class="section-title">Guiding Principles & Code of Care</h2>
+          <p class="section-description">
+            We maintain the highest professional standards to ensure trust, dignity, and complete safety.
+          </p>
+        </div>
+
+        <div class="packages-grid">
+          <div class="package-card" style="cursor:default;">
+            <div class="package-icon"><i class="fas fa-user-shield"></i></div>
+            <h3 style="text-align:center; margin-bottom:12px;">Dignity & Privacy</h3>
+            <p style="font-size:0.9rem; color:var(--text-muted); text-align:center;">
+              We respect every patient's personal dignity, medical privacy, and personal boundaries at all times during bedside visits.
+            </p>
+          </div>
+          <div class="package-card" style="cursor:default;">
+            <div class="package-icon"><i class="fas fa-handshake"></i></div>
+            <h3 style="text-align:center; margin-bottom:12px;">Hospital Cooperation</h3>
+            <p style="font-size:0.9rem; color:var(--text-muted); text-align:center;">
+              We work in full cooperation with ward sisters, nurses, and medical staff, abiding by all official visiting guidelines.
+            </p>
+          </div>
+          <div class="package-card" style="cursor:default;">
+            <div class="package-icon"><i class="fas fa-notes-medical"></i></div>
+            <h3 style="text-align:center; margin-bottom:12px;">Non-Medical Scope</h3>
+            <p style="font-size:0.9rem; color:var(--text-muted); text-align:center;">
+              We provide pure emotional companionship and comfort. We never administer medical care, keeping roles clear and safe.
+            </p>
+          </div>
+          <div class="package-card" style="cursor:default;">
+            <div class="package-icon"><i class="fas fa-comments-dollar"></i></div>
+            <h3 style="text-align:center; margin-bottom:12px;">Reliable Reporting</h3>
+            <p style="font-size:0.9rem; color:var(--text-muted); text-align:center;">
+              Family members overseas receive immediate, accurate post-visit summaries, photos, and video updates after every visit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Common Questions</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-description">
+            Everything you need to know about booking companion visits from overseas.
+          </p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion-container">
+          <!-- Dynamic FAQ Accordion -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Direct Enquiry Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-content">
+            <span class="section-subtitle">Get In Touch</span>
+            <h2>Have Questions or Urgent Visit Requests?</h2>
+            <p class="story-paragraph">
+              Whether you need advice on hospital visiting hours or want to arrange a visit for a parent in Durban today, our coordinator is ready to assist.
+            </p>
+            <div style="margin-top:24px;">
+              <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+                <div class="package-icon" style="margin:0;"><i class="fab fa-whatsapp"></i></div>
+                <div>
+                  <strong>Instant WhatsApp Chat:</strong>
+                  <div style="color:var(--text-muted);">Available for global text & voice notes</div>
+                </div>
+              </div>
+              <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+                <div class="package-icon" style="margin:0;"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <strong>Email Enquiries:</strong>
+                  <div style="color:var(--text-muted);">care@goldenbridgeservices.co.za</div>
+                </div>
+              </div>
+              <div style="display:flex; align-items:center; gap:16px;">
+                <div class="package-icon" style="margin:0;"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <strong>Service Coverage:</strong>
+                  <div style="color:var(--text-muted);">Durban Central, Umhlanga, Westville, Pinetown, Amanzimtoti</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="calculator-box">
+            <h3 style="margin-bottom:20px;"><i class="fas fa-paper-plane"></i> Send Direct Enquiry</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="contact-name">Your Full Name:</label>
+                <input type="text" id="contact-name" class="form-control" required placeholder="e.g. Sarah Jenkins">
+              </div>
+              <div class="form-group">
+                <label for="contact-location">Your Country / Timezone:</label>
+                <input type="text" id="contact-location" class="form-control" required placeholder="e.g. London, UK">
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email Address / WhatsApp Number:</label>
+                <input type="text" id="contact-email" class="form-control" required placeholder="e.g. sarah@example.com / +44 7000...">
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Details of Loved One & Hospital:</label>
+                <textarea id="contact-message" class="form-control" rows="4" required placeholder="Please tell us which hospital in Durban your relative is in and any special requests..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold" style="width:100%;"><i class="fas fa-paper-plane"></i> Submit Enquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Booking Modal -->
+  <div class="modal-overlay" id="booking-modal">
+    <div class="modal-content">
+      <button class="close-modal-btn" id="close-modal-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <h3><i class="fas fa-heart" style="color:var(--gold-accent);"></i> Confirm Hospital Visit Request</h3>
+        <p>Fill in patient details below. We will confirm visiting hours and payment options within 2 hours.</p>
+      </div>
+
+      <form id="booking-form">
+        <div class="form-group">
+          <label>Selected Package:</label>
+          <input type="text" id="modal-package-input" class="form-control" readonly style="background:var(--slate-bg); font-weight:700;">
+        </div>
+        <div class="form-group">
+          <label>Selected Hospital:</label>
+          <input type="text" id="modal-hospital-input" class="form-control" readonly style="background:var(--slate-bg);">
+        </div>
+        <div class="form-group">
+          <label>Estimated Fee Total:</label>
+          <input type="text" id="modal-total-input" class="form-control" readonly style="background:var(--slate-bg); font-weight:800; color:var(--navy-main);">
+        </div>
+
+        <hr style="margin: 20px 0; border: none; border-top: 1px solid rgba(15,33,55,0.1);">
+
+        <div class="form-group">
+          <label for="patient-name">Patient Name (Loved One in Hospital):</label>
+          <input type="text" id="patient-name" class="form-control" required placeholder="e.g. Margaret Smith">
+        </div>
+        <div class="form-group">
+          <label for="patient-room">Ward / Room Number (if known):</label>
+          <input type="text" id="patient-room" class="form-control" placeholder="e.g. Ward 3, Room 312 (or 'Not sure yet')">
+        </div>
+        <div class="form-group">
+          <label for="sender-email">Your Email Address (For Post-Visit Reports):</label>
+          <input type="email" id="sender-email" class="form-control" required placeholder="e.g. yourname@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="sender-phone">Your WhatsApp Number (with country code):</label>
+          <input type="tel" id="sender-phone" class="form-control" required placeholder="e.g. +44 7123 456789">
+        </div>
+
+        <button type="submit" class="btn btn-gold" style="width:100%; margin-top:10px;">
+          <i class="fas fa-check-circle"></i> Submit Visit Booking Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom:16px;">
+            <img src="assets/logo.png" alt="Golden Bridge Logo" style="filter: brightness(0) invert(1);" />
+            <div>
+              <span class="brand-name" style="color:var(--text-white);">Golden Bridge</span>
+              <span class="brand-tag" style="color:var(--text-light);">Hospital Companion Services</span>
+            </div>
+          </div>
+          <p>
+            Bridging distance with compassion, conversation, comfort, and connection for families across the globe.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#origin-story">Our Story</a></li>
+            <li><a href="#services">Care Packages</a></li>
+            <li><a href="#calculator-section">Fee Estimator</a></li>
+            <li><a href="#sample-update">Sample Report</a></li>
+            <li><a href="#hospitals">Durban Hospitals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Durban Coverage</h4>
+          <ul class="footer-links">
+            <li>Netcare St Augustine's</li>
+            <li>Busamed Gateway Hospital</li>
+            <li>Life Entabeni Hospital</li>
+            <li>Life Westville Hospital</li>
+            <li>Netcare Crompton Hospital</li>
+            <li>Addington Hospital</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Overseas Support</h4>
+          <p>Serving families in United Kingdom, Australia, New Zealand, Canada, USA, Europe & worldwide.</p>
+          <div style="margin-top:16px;">
+            <a href="https://wa.me/27820000000" target="_blank" class="btn btn-outline-gold btn-sm"><i class="fab fa-whatsapp"></i> WhatsApp Support</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Golden Bridge Services. All rights reserved. Non-medical hospital companion services.
+        </div>
+        <div>
+          Designed with ❤️ for Durban families across the world.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Master JavaScript Dependencies -->
+  <script src="js/data.js"></script>
+  <script src="js/timezone.js"></script>
+  <script src="js/booking.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
